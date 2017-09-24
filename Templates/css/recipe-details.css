@@ -1,0 +1,81 @@
+
+.mylogo {
+	margin-left: 10px;
+}
+
+
+#makesmall{
+	width: 50%;
+}
+
+i:hover{
+	color: #004d40;
+}
+
+nav{
+	
+	height: 120px;
+  background: rgb(37, 178, 171); /* fallback for old browsers */
+   /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgb(37,178,171), rgb(0,0,0));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgb(37,178,171), rgb(0,0,0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.lower {
+	padding-top: 30px;
+}
+
+h5{
+	text-align: center;
+}
+
+   .review {
+	padding: 20px;
+	margin-top: 40px;
+	border-bottom: 2px solid #e91e63 ;
+}
+
+.popular {
+	margin: 1em 0 0.5em 0;
+	font-weight: 500;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	position: relative;  
+	font-size: 20px;
+	line-height: 30px;
+	padding: 15px 15px 15px 15%;
+	color: #355681;
+
+	box-shadow: 
+		inset 0 0 0 2px rgb(37, 178, 171,0.4), 
+		inset 0 0 5px rgb(37, 178, 171,0.5),
+		inset -285px 0 35px white;
+
+	
+}
+
+.prof{
+	border-bottom: 2px solid #e91e63 ;
+	
+}
+
+
+
+footer {
+
+	background-color: #004d40 !important;
+}
+
+
+.mybord{
+	border-left: 1px solid blue;
+}
+
+.bst {
+	margin: auto;
+}
+
+#first{
+	margin-top: 40px;
+}
