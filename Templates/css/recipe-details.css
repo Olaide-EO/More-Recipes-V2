@@ -15,10 +15,10 @@ i:hover{
 nav{
 	
 	height: 120px;
-  background: rgb(37, 178, 171); /* fallback for old browsers */
-   /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, rgb(37,178,171), rgb(0,0,0));  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, rgb(37,178,171), rgb(0,0,0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(37, 178, 171); 
+   
+background: -webkit-linear-gradient(to right, rgb(37,178,171), rgb(0,0,0));  
+background: linear-gradient(to right, rgb(37,178,171), rgb(0,0,0)); 
 
 
 }
