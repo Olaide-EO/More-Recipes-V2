@@ -18,6 +18,12 @@ h5{
 }
 
 
+#textarea1{
+      
+       font-family: 'Pacifico', cursive;
+
+}
+
 
      #title{
 
@@ -71,4 +77,24 @@ h5{
 
 focus:hover {
    color: white !important;
+}
+
+#recipedetails{
+
+	margin-top: 70px;
+}
+
+#details{
+	margin-top: 70px;
+}
+
+#review{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#forreview{
+  
+   margin-top: 70px;
+
 }
