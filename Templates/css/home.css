@@ -1,0 +1,120 @@
+
+.card-image span{
+	font-family: 'Pacifico', cursive;
+}
+
+#more{
+	font-family: 'Pacifico', cursive;
+}
+
+#recipe{
+	font-family: 'Pacifico', cursive;
+}
+
+h5{
+
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+}
+
+
+#textarea1{
+      
+       font-family: 'Pacifico', cursive;
+
+}
+
+
+     #title{
+
+     	padding-top: 40px
+
+     }
+
+
+     .search{
+     	text-align: center;
+     }
+
+
+.nar{
+
+	height: 65px;
+	background-color: white;
+	opacity: 0.8;
+	margin-top: 30px;
+}
+
+.nar a{
+	color: blue;
+}
+
+.brand-logo{
+	margin-left: 10px;
+}
+
+
+.homeimage{
+	height: 247px;
+	width: 170;
+}
+
+.search{
+	height: 200px;
+}
+
+
+#first{
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+
+#second{
+
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+
+
+
+#recipedetails{
+
+	margin-top: 70px;
+}
+
+#details{
+	margin-top: 70px;
+}
+
+#review{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#forreview{
+  
+   margin-top: 70px;
+
+}
+
+#favorites{
+	margin-top: 70px;
+}
+
+#edit{
+	margin-bottom: 70px;
+}
+
+#input{
+	margin-bottom: 70px;
+}
+
+
+.input-field input[type=text]:onfocus + label {
+     color: #FFF;
+   }
+
+.mode{
+	padding-top: 70px;
+	padding-bottom:70px;
+}

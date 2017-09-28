@@ -2,7 +2,7 @@
   <html>
     <head>
       
-      <title>Favorite Recipe</title>
+      <title>Home Page</title>
 
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       
@@ -24,18 +24,18 @@
               
               <nav>
     <div class="nav-wrapper red lighten-1 ">
-      <a href="catalogPage.html" class="brand-logo" id = "logo"><span id="more">More</span><span id = "recipe">Recipe</span></a>
+      <a href="Home Page.html" class="brand-logo" id = "logo"><span id="more">More</span><span id = "recipe">Recipe</span></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="catalogPage.html">Home</a></li>
-        <li><a href="badges.html">About</a></li>
-        <li><a href="profilePage.html">Profile</a></li>
+        <li><a href="Home Page.html">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact Us</a></li>
       </ul>
     </div>
          
          </nav>
              <div class="card-action">
-              <a href="addModifyDeleteRecipe.html" class="right">My Recipes</a>
-              <a href="favoriteRecipeView.html" class="right">Favorites</a>
+              <a href="signUpPage.html" class="right">Register</a>
+              <a href="signInPage.html" class="right">Login</a>
             </div>
           </div>
         </div>
@@ -44,7 +44,40 @@
      </div>
 
 
-             <h5 id="favorites">My Favorites</h5>
+
+
+          <div class = "row search">
+           
+
+            <div class ="col m6 offset-m3">
+              <div class="col m10 offset-m1">
+                
+                <div class="row">
+              <form class="col s12">
+               <div class="row">
+             <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1"><p id="focus">search for recipes...</p></label>
+          
+           <button class="btn red lighten-1 waves-effect waves-light" type="submit" name="action">Search</button>
+        
+
+                  </div>
+                 </div>
+               </form>
+             </div>
+
+
+
+
+              </div>
+            </div>
+
+          </div>
+
+             
+
+             <h5>POPULAR RECIPES</h5>
 
            <div class="row" id="first">
           
@@ -158,7 +191,23 @@
 
 
 
+
+               <ul class="pagination right">
+    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+    <li class="active"><a href="#!">1</a></li>
+    <li class="waves-effect"><a href="#!">2</a></li>
+    <li class="waves-effect"><a href="#!">3</a></li>
+    <li class="waves-effect"><a href="#!">4</a></li>
+    <li class="waves-effect"><a href="#!">5</a></li>
+    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+  </ul>
+         
+
+
            </div>
+
+
+      <h5>MORE RECIPES</h5>
 
 
       <div class = "row" id="second">
@@ -313,12 +362,6 @@
             </div>
           </div>
         </footer>
-            
-    
-
-
-    
-
       
       
     </body>
