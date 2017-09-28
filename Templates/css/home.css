@@ -75,9 +75,7 @@ h5{
 	margin-bottom: 100px;
 }
 
-focus:hover {
-   color: white !important;
-}
+
 
 #recipedetails{
 
@@ -101,4 +99,22 @@ focus:hover {
 
 #favorites{
 	margin-top: 70px;
+}
+
+#edit{
+	margin-bottom: 70px;
+}
+
+#input{
+	margin-bottom: 70px;
+}
+
+
+.input-field input[type=text]:onfocus + label {
+     color: #FFF;
+   }
+
+.mode{
+	padding-top: 70px;
+	padding-bottom:70px;
 }
