@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Olaide-EO/More-Recipes-V2/issues"
   },
-  "homepage": "https://github.com/Olaide-EO/More-Recipes-V2#readme"
+  "homepage": "https://github.com/Olaide-EO/More-Recipes-V2#readme",
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
 }
