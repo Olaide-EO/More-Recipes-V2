@@ -3,13 +3,14 @@ A recipe management and sharing app with great features!
 
 # Features
 
-* Signup and Login 
-* Create and Modify Recipes
-* View recipes
-* Post reviews on recipes
-* Bookmark recies(Favorite)
-* Upvote or downvote recipes
-* View User profile
+* Signup and Login Pages
+* Catalog Page
+* Add or Modify Recipes Page
+* Recipe Details Page
+* Add or Delete recipe Page
+* Favorite Recipe Page
+* Popular Recipe Page
+* A User profile page
 
 #### Templates
 For this version, all html files and stylesheets, images, Materialize are stored into the template directory
@@ -17,13 +18,12 @@ For this version, all html files and stylesheets, images, Materialize are stored
 #### Client
 
 #### Server
-This directory holds all routes, controllers, middleware, migrations.
+For this verion, this directory holds all routes, controllers, middleware.
 
 
 # Testing
-* Install Chai and Mochai
 * Install postman app
-* Run npm start and navigate to localhost:3000 on PostMan
+* Run npm start and navigate to localhost:3000/api on PostMan
 
 
 # Built With
@@ -34,7 +34,7 @@ This directory holds all routes, controllers, middleware, migrations.
 * NPM 
 
 # Versioning
-I used Git for versioning. For the versions available, see the tags on this repository.
+I used Git for versioning.
 
 # Getting Started
 * git clone https://github.com/Olaide-EO/More-Recipes-V2.git
@@ -45,17 +45,13 @@ I used Git for versioning. For the versions available, see the tags on this repo
 # Available Scripts
 In the application, you can 
 
-Run **npm start**
+fun **npm run start:dev**
 
+Starts app with nodemon watcher.
 
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000/api) to view it in the browser.
 
-**npm start:dev**
-
-Starts app with nodemon watcher. Restarts app when changes are made to the source code
-npm test
-
+Restarts app when changes are made to the source code
 
 # Author
 
@@ -67,5 +63,5 @@ npm test
 * Google Material Icons
 * Materialise CSS
 * Jquery
-* Google Graph API
+
 
