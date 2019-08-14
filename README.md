@@ -55,7 +55,7 @@ Restarts app when changes are made to the source code
 
 # Author
 
-    Oladipo Ebenezer Olaide -Aspiring Software Dev.
+    Oladipo Ebenezer Olaide
 
 
 # Acknowledgments
